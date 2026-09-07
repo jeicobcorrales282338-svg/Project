@@ -1,0 +1,96 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: whitesmoke;
+}
+ul,li{
+    list-style: none;
+    padding-left: 10px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    
+}
+li,img{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    padding: 20px;
+}
+
+.Container{
+    width: 600px;
+    margin: auto;
+}
+
+.Slider{
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.Slider img{
+    height: 600px;
+    width: 600px;
+    scroll-snap-type: start;
+}
+.menu{
+    background-color: yellow;
+    width: 600px;
+}
+.display{
+    display: flex;
+    justify-content: center;
+}
+.PrimerCatalogo{
+   
+    display: flex;
+    justify-content: center;
+}
+.letras1{
+    font-size: 30px;
+}
+.letras2{
+    font-size: 30px;
+}
+.letras3{
+    font-size: 30px;
+}
+.PrimerCatalogo img{
+    justify-content: center;
+    height: 200px;
+}
+.piePagina{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row; 
+}
+.redes img{
+    flex: 1;
+    height: 20px;
+    width: 20px;
+    gap: 0;
+    padding: 0;
+    display: block;
+}
+.caja2 img{
+    padding: 2px;
+    height: 20px;
+}
+.caja2 p{
+    display: flex;
+    flex-direction: row;
+    background-color: palegoldenrod;
+}
+.Letters{
+    display: flex;
+    justify-content: center;
+}
+
