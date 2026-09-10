@@ -93,4 +93,82 @@ li,img{
     display: flex;
     justify-content: center;
 }
+.formularioSignin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    gap: 20px;
+    background-color: lightgray;
+}
+.formulario{
+    margin: 20px;
+    background-color: whitesmoke;
 
+}
+.formulario label{
+
+    width: 400px;
+    height: 100px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.botones{
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+}
+.botones button{
+    width: 40%;
+}
+.formularioRegistro{
+    background-color: lightgray;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.registro2{
+    height: 80%;
+    width: 80%;
+    margin: 20px;
+    background-color: whitesmoke;
+}
+.registro2 label{
+    
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: right;
+   margin-bottom: 10px;
+}
+.registro2 input{
+    background-color: lightgrey;
+    flex: 1;
+    width: 70%;
+    padding: 1px;
+}
+.dosCajas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dosCajas label{ 
+    width: 41%;
+}
+.botonRegistro{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.botonRegistro button{
+    background-color: grey;
+    width: 30%;
+    margin-top: 20px;
+}
