@@ -172,3 +172,36 @@ li,img{
     width: 30%;
     margin-top: 20px;
 }
+.cuerpoTienda{
+    background-color: lightgreen;
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.areaMuestrario{
+    display: flex;
+    flex-wrap:wrap ;
+    flex-basis: 70%;
+}
+.areaFiltro{
+    background-color: lightcyan;
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+}
+.areaMuestrario figure img{
+   display: flex;
+   background-color: black;
+    height: 200px;
+    width: 200px;
+    gap: 0px;
+}
+.areaMuestrario figure p{
+    font-size: 25px;
+}
+.areaMuestrario figure strong{
+    font-size: 25px;
+}
+
+
+
